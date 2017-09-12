@@ -46,7 +46,7 @@ dev_Y = [];
 test_X = [];
 test_Y = [];
 
-for file_id = 99:num_seen_files
+for file_id = 1:num_seen_files
    fname = wav_files(seen_file_id(file_id)).name(1:end-4);
    [y, Fs] = audioread([path_audio_dbase fname '.wav']);
    y = y(:,1);
