@@ -8,4 +8,4 @@ All Python codes are in ./PythonScripts/
 ## LSTM Training + Testing: (Jupyter Notebook)
 MeterTrackingLSTM.ipynb
 
-The details of the entire project is described in the Jupyter Notebook. 
+The details of the entire project are described in the Jupyter Notebook. 
