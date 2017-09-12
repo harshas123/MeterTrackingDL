@@ -1,0 +1,13 @@
+close all
+clear all
+clc
+
+% This script is to visualize and verify if the data used for training the
+% network is correct.
+
+path_data = '../Data/';
+partition_type = 'Train';%'Train', 'Train-Dev','Dev','Test'
+mat_files = dir([path_data '*.mat']);
+
+file_id = 1;%1:4
+load([path_data mat_files(file_is).name]);
