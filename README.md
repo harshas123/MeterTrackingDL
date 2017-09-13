@@ -5,7 +5,7 @@ All Python codes are in ./PythonScripts/
 ## Feature Extraction File: (Matlab code)
   DataPrep.m
 
-## LSTM Training + Testing: (Jupyter Notebook)
+## LSTM Training + Testing: (Pyhton Code: Jupyter/Ipython Notebook)
 MeterTrackingLSTM.ipynb
 
 The details of the entire project are described in the Jupyter Notebook. 
