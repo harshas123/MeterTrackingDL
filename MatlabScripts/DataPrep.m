@@ -10,7 +10,7 @@ num_files = length(wav_files);
 Fs_reqd = 16000;
 Fs = 44100;%Bit of a hack as I am assuming all audio files to be sampled at 44.1 kHz 
 % Auditory spectrogram Parameters
-frmlen = 100; %in ms
+frmlen = 50; %in ms
 frame_conv_fac = 10^3/frmlen;
 tc = 0;
 fac = -1;%-2: Linear; -1: HWR
